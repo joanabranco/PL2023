@@ -90,7 +90,7 @@ def idadesTable():
         percentagem = quant/total * 100
         
         print (f"| {idade} a {idade+4}  |  {round(percentagem,2)} %  |")
-sexos
+
 #imprimir tabela de níveis de colesterol
 def niveisColestTable():
     for nivel,quant in niveisColest.items():
@@ -98,7 +98,7 @@ def niveisColestTable():
         percentagem = quant/total * 100
         print (f"| {nivel} a {nivel+10} |    {round(percentagem,2)} %  |")
         
-        
+        sexos
 def main():
     readFile()
 
