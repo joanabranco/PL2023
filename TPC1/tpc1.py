@@ -98,7 +98,6 @@ def niveisColestTable():
         percentagem = quant/total * 100
         print (f"| {nivel} a {nivel+10} |    {round(percentagem,2)} %  |")
         
-        sexos
 def main():
     readFile()
 
